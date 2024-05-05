@@ -1,0 +1,21 @@
+format: jb-book
+root: intro.md
+
+parts:
+  - caption: Good Coding Practices
+    chapters:
+      - file: Chapters/0.0. Good Coding Practices/GCP1_VariableName.ipynb
+        title: Variable Names
+      - file: Chapters/0.0. Good Coding Practices/GCP2_DescribingCode.ipynb
+        title: Describing Code
+      - file: Chapters/0.0. Good Coding Practices/GCP3_ReadableCode.ipynb
+        title: Readable Code
+      - file: Chapters/0.0. Good Coding Practices/GCP4_WritingScripts.ipynb
+        title: Writing Scripts
+      - file: Chapters/0.0. Good Coding Practices/GCP5_Assertions.ipynb
+        title: Assertions
+
+  
+
+
+
