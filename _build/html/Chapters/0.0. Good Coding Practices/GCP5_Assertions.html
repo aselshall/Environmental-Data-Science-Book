@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>GCP 5 - Using assertions &#8212; My sample book</title>
+    <title>GCP 5 - Using assertions &#8212; Environmental Data Science</title>
   
   
   
@@ -60,6 +60,7 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'Chapters/0.0. Good Coding Practices/GCP5_Assertions';</script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Introduction to Environmental Data Science with Python" href="../1.%20Introduction%20to%20Environmental%20Data%20Science%20with%20Python/Lesson1.html" />
     <link rel="prev" title="GCP 4 - Writing our scripts the “right” way" href="GCP4_WritingScripts.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -149,8 +150,8 @@
       
     
     
-    <img src="../../_static/logo.png" class="logo__image only-light" alt="My sample book - Home"/>
-    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Environmental Data Science - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Environmental Data Science - Home"/>`);</script>
   
   
 </a></div>
@@ -175,7 +176,7 @@
                 </a>
             </li>
         </ul>
-        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Good Coding Practices</span></p>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">0. Good Coding Practices</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="GCP1_VariableName.html">GCP1 - Selecting “good” variable names</a></li>
 
@@ -183,6 +184,54 @@
 <li class="toctree-l1"><a class="reference internal" href="GCP3_ReadableCode.html">Readable Code</a></li>
 <li class="toctree-l1"><a class="reference internal" href="GCP4_WritingScripts.html">Writing Scripts</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Assertions</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">1. Introduction to Environmental Data Science with Python</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../1.%20Introduction%20to%20Environmental%20Data%20Science%20with%20Python/Lesson1.html">Lesson 1 - Introduction to Environmental Data Science with Python</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../1.%20Introduction%20to%20Environmental%20Data%20Science%20with%20Python/Lesson2.html">Objectives</a></li>
+
+<li class="toctree-l1"><a class="reference internal" href="../1.%20Introduction%20to%20Environmental%20Data%20Science%20with%20Python/Excercise1.html">Exercise 1 - Installing Python</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">2. Python Basics</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../2.%20Python%20Basics/Lesson3_PythonBasics1.html">Objectives</a></li>
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../2.%20Python%20Basics/Lesson4_list_solution.html">Objectives</a></li>
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../2.%20Python%20Basics/Lesson5_formatting.html">Objectives</a></li>
+
+
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">3. Python Programming</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../3.%20Python%20Programming/Lesson6_Loops.html">Objectives</a></li>
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../3.%20Python%20Programming/Lesson7_conditional_statements.html">Objectives</a></li>
+
+
+<li class="toctree-l1"><a class="reference internal" href="../3.%20Python%20Programming/Lesson8_functions.html">Objectives</a></li>
+
+
+<li class="toctree-l1"><a class="reference internal" href="../3.%20Python%20Programming/Lesson9_modules.html">Objectives</a></li>
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../3.%20Python%20Programming/Exercise3.html">Objectives</a></li>
+
 </ul>
 
     </div>
@@ -464,8 +513,8 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">-----------------------------------------------------------------------</span>
-<span class="ne">AssertionError</span><span class="g g-Whitespace">                        </span>Traceback (most recent call last)
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">AssertionError</span><span class="g g-Whitespace">                            </span>Traceback (most recent call last)
 <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
 <span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="n">wind_speed_km</span> <span class="o">=</span> <span class="o">-</span><span class="mi">27</span>
 <span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">wind_speed_ms</span> <span class="o">=</span> <span class="n">convert_kph_ms</span><span class="p">(</span><span class="n">wind_speed_km</span><span class="p">)</span>
@@ -500,8 +549,8 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">-----------------------------------------------------------------------</span>
-<span class="ne">AssertionError</span><span class="g g-Whitespace">                        </span>Traceback (most recent call last)
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">AssertionError</span><span class="g g-Whitespace">                            </span>Traceback (most recent call last)
 <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">line</span> <span class="mi">8</span>
 <span class="g g-Whitespace">      </span><span class="mi">4</span>     <span class="k">return</span> <span class="n">speed</span> <span class="o">*</span> <span class="mi">1000</span> <span class="o">/</span> <span class="mi">3600</span>
 <span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="n">wind_speed_km</span> <span class="o">=</span> <span class="o">-</span><span class="mi">27</span>
@@ -549,8 +598,8 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">-----------------------------------------------------------------------</span>
-<span class="ne">AssertionError</span><span class="g g-Whitespace">                        </span>Traceback (most recent call last)
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">AssertionError</span><span class="g g-Whitespace">                            </span>Traceback (most recent call last)
 <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="n">line</span> <span class="mi">11</span>
 <span class="g g-Whitespace">      </span><span class="mi">7</span>     <span class="k">return</span> <span class="n">speed</span> <span class="o">*</span> <span class="mi">1000</span> <span class="o">/</span> <span class="mi">3600</span>
 <span class="g g-Whitespace">     </span><span class="mi">10</span> <span class="n">wind_speed_km</span> <span class="o">=</span> <span class="s2">&quot;dog&quot;</span>
@@ -597,8 +646,8 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">-----------------------------------------------------------------------</span>
-<span class="ne">TypeError</span><span class="g g-Whitespace">                             </span>Traceback (most recent call last)
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">TypeError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
 <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">6</span><span class="p">],</span> <span class="n">line</span> <span class="mi">9</span>
 <span class="g g-Whitespace">      </span><span class="mi">5</span>     <span class="k">return</span> <span class="n">speed</span> <span class="o">*</span> <span class="mi">1000</span> <span class="o">/</span> <span class="mi">3600</span>
 <span class="g g-Whitespace">      </span><span class="mi">8</span> <span class="n">wind_speed_km</span> <span class="o">=</span> <span class="s2">&quot;409&quot;</span>
@@ -681,6 +730,15 @@ If you’re interested in more details, feel free to check out the <a class="ref
         <p class="prev-next-title">GCP 4 - Writing our scripts the “right” way</p>
       </div>
     </a>
+    <a class="right-next"
+       href="../1.%20Introduction%20to%20Environmental%20Data%20Science%20with%20Python/Lesson1.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Introduction to Environmental Data Science with Python</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -720,7 +778,7 @@ If you’re interested in more details, feel free to check out the <a class="ref
   <div class="footer-item">
     
 <p class="component-author">
-By The Jupyter Book Community
+By Ahmed Elshall & Thalia Valle
 </p>
 
   </div>
