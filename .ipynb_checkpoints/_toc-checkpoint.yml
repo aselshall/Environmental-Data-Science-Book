@@ -94,6 +94,19 @@ parts:
         title: Lesson 28 - CartoPy basics
       - file: Chapters/9. Xarray and CartoPy for Labeled and Gridded N-dimensional Arrays/Exercise9.ipynb
         title: Exercise 9 - Sea surface height and red tides (Optional, Advanced)
+        
+  - caption: "10. Introduction to Google Earth Engine"
+    chapters:
+      - file: Chapters/10. Intro to Google Earth Engine/10.0- Intro to GEE.ipynb
+        title: Lesson 30 - Intro to Google Earth Engine
+      - file: Chapters/10. Intro to Google Earth Engine/10.1- JavaScript API vs. Python API.ipynb
+        title: Lesson 31 - JavaScript API vs. Python API
+      - file: Chapters/10. Intro to Google Earth Engine/10.2- Using Google Earth Engine in a Jupyter Notebook.ipynb
+        title: Lesson 32 - Using Google Earth Engine in a Jupyter Notebook
+      - file: Chapters/10. Intro to Google Earth Engine/geemap1.ipynb
+        title: Exercise 10 -  GeeMap, GEE, and Sentinel-2 Data
+        
+       
       
       
       
